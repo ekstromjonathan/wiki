@@ -4,9 +4,10 @@ Data flow, template design and other preparations
 
 This document presents the different steps of integration needed to have an app ready for the market using Ivy. Please note that this document will be continuously updated, and is meant as a guideline only. Changes may occur. 
 
-Last revision: <>
+Last revision:
 =
 <b>Milestones for delivery:</b>
+
 Agens hands over generic unbranded default demo version of Ivy Engine, running on Agens’ demo environment
 Client decides on strategy: Pricing, publications etc.
 Client ensures publication process will be in place and starts training necessary key personnel for content production
@@ -27,6 +28,7 @@ Client submits app
 As Ivy Engine is updated, client submits new and updated app versions
 
 1. The basics
+==
 This is an overview of what we’ll need from you:
 
 Build requisites
@@ -36,7 +38,7 @@ Logo in vector or high resolution format with alpha channel
 Information about publications upon first release - name, short description, frequency of publication
 Credentials to your iTunes Connect & Google Play accounts, or agreement on a proper way to submit apps
 
-Configuration choices:
+<b>Configuration choices:</b>
 Will you be using the Ivy Server API to create/update issues (requires implementation on your side), or Ivy Admin?
 Are you going to use iTunes in-app-purchase to sell subscriptions? 
 What  interaction method do you want to use? Specify for each publication. (VG+ <rename> method, traditional method) 
