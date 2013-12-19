@@ -37,7 +37,7 @@ Logo in vector or high resolution format with alpha channel
 Information about publications upon first release - name, short description, frequency of publication
 Credentials to your iTunes Connect & Google Play accounts, or agreement on a proper way to submit apps
 
-<b>Configuration choices:</b>
+Configuration choices:
 Will you be using the Ivy Server API to create/update issues (requires implementation on your side), or Ivy Admin?
 Are you going to use iTunes in-app-purchase to sell subscriptions? 
 What  interaction method do you want to use? Specify for each publication. (VG+ <rename> method, traditional method) 
