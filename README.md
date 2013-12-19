@@ -31,19 +31,19 @@ As Ivy Engine is updated, client submits new and updated app versions
 This is an overview of what we’ll need from you:
 
 Build requisites
-Name of application (e.g. “Ivy”)
-Slug / id of application (e.g. “ivyEngine”)
-Logo in vector or high resolution format with alpha channel
-Information about publications upon first release - name, short description, frequency of publication
-Credentials to your iTunes Connect & Google Play accounts, or agreement on a proper way to submit apps
+- Name of application (e.g. “Ivy”)
+- Slug / id of application (e.g. “ivyEngine”)
+- Logo in vector or high resolution format with alpha channel
+- Information about publications upon first release - name, short description, frequency of publication
+- Credentials to your iTunes Connect & Google Play accounts, or agreement on a proper way to submit apps
 
 Configuration choices:
-Will you be using the Ivy Server API to create/update issues (requires implementation on your side), or Ivy Admin?
-Are you going to use iTunes in-app-purchase to sell subscriptions? 
-What  interaction method do you want to use? Specify for each publication. (VG+ <rename> method, traditional method) 
-What navigation model do you wish to use for iPhone and iPad?
-Which items that should reside in the main menu? Make sure to specify any necessary URLs.
-Will you require any plugins to Ivy Engine? Specify which, and give configuration information where needed.
+- Will you be using the Ivy Server API to create/update issues (requires implementation on your side), or Ivy Admin?
+- Are you going to use iTunes in-app-purchase to sell subscriptions? 
+- What  interaction method do you want to use? Specify for each publication. (VG+ <rename> method, traditional method) 
+- What navigation model do you wish to use for iPhone and iPad?
+- Which items that should reside in the main menu? Make sure to specify any necessary URLs.
+- Will you require any plugins to Ivy Engine? Specify which, and give configuration information where needed.
 
 
 2. Designing templates for LayoutPreview
@@ -51,27 +51,30 @@ Will you require any plugins to Ivy Engine? Specify which, and give configuratio
 Since this is regarded as a rather time consuming process, it’s a good idea to start designing templates as early as possible. Be sure to allocate the necessary resources from your company. Please consult us if you might have questions about this process. Note that we don’t support iframes to be used directly in our articles. 
 
 Tablet landscape
-name: tablet_landscape
-width: 1024
-height: 768
-scrolling: paged
+- name: tablet_landscape
+- width: 1024
+- height: 768
+- scrolling: paged
+
 Mobile portrait
 Used by android and iOS handhelds to render a single article
-name: mobile_portrait
-width: 320 (should be scalable)
-height: any/auto
-scrolling: vertical free scroll
+- name: mobile_portrait
+- width: 320 (should be scalable)
+- height: any/auto
+- scrolling: vertical free scroll
+
 Issue cover
 Used by the app to represent a single issue
-name: issue_cover_landscape
-width 1024
-height: 768
-scrolling: none (1 page only)
+- name: issue_cover_landscape
+- width 1024
+- height: 768
+- scrolling: none (1 page only)
+
 Section cover (only needed for VG+ <rename> TOC)
-name: section_cover
-width 1024
-height: 488 
-scrolling: none (1 page only)
+- name: section_cover
+- width 1024
+- height: 488 
+- scrolling: none (1 page only)
 Please note that 12 px in the bottom of the section cover are not usually visible - they only show when a user drags an article page downward and outside the canvas for a resize effect.)
 
 
@@ -79,12 +82,12 @@ Please note that 12 px in the bottom of the section cover are not usually visibl
 ==
 Every article exported to DrMobile as described in their wiki will be available in our system. 
 
-Sharing
-Export the field meta.shareUrl with the absolute url which can be used to view the article on the web.
-Format: full url string
-Level of access
-Export the field meta.access on each article to set access restriction. 
-Format: TBA
+<b>Sharing</b>
+- Export the field meta.shareUrl with the absolute url which can be used to view the article on the web.
+- Format: full url string
+- Level of access
+- Export the field meta.access on each article to set access restriction. 
+- Format: TBA
 
 
 4. Styling and branding
@@ -106,17 +109,10 @@ This is currently under development. If this is something you would like to use 
 ==
 The end user will need to access to different kinds of information whether he/she has questions, feedback or is interested in getting a quick guide for the app. We will provide example HTML for the following pages for you to use as a starting point. In order to implement these pages, we will need an URL in order for the app to access them.
 
-<b>FAQ</b>
-
-An example for this html page is currently under development.
-
-<b>Feedback form</b>
-
-The end user will need to give feedback of various kind. It could be editorial feedback, bug reports, questions or complaints. An example for this html page is currently under development.
-<b>Guide</b>
-An example for this html page is currently under development.
-<b>Paywall</b>
-This is what the user should see when he/she tries to open content which he/she is not authorized to view/browse. An example for this html page is currently under development.
+- <b>FAQ</b> - An example for this html page is currently under development.
+- <b>Feedback form</b> - The end user will need to give feedback of various kind. It could be editorial feedback, bug reports, questions or complaints. An example for this html page is currently under development.
+- <b>Guide</b> - An example for this html page is currently under development.
+- <b>Paywall</b> - This is what the user should see when he/she tries to open content which he/she is not authorized to view/browse. An example for this html page is currently under development.
 
 
 7. Additional features for articles
