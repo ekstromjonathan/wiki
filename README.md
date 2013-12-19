@@ -48,6 +48,7 @@ Will you require any plugins to Ivy Engine? Specify which, and give configuratio
 
 
 2. Designing templates for LayoutPreview
+==
 Since this is regarded as a rather time consuming process, it’s a good idea to start designing templates as early as possible. Be sure to allocate the necessary resources from your company. Please consult us if you might have questions about this process. Note that we don’t support iframes to be used directly in our articles. 
 
 Tablet landscape
@@ -76,6 +77,7 @@ Please note that 12 px in the bottom of the section cover are not usually visibl
 
 
 3. Exporting articles to DrMobile
+==
 Every article exported to DrMobile as described in their wiki will be available in our system. 
 
 Sharing
@@ -87,10 +89,12 @@ Format: TBA
 
 
 4. Styling and branding
+==
 As a customer you are able to brand every article with your logo. This is done in LayoutPreview. In addition the app’s icon, the splash screen and the menu will by default use your logo. We will need your logo in vector and/or high resolution with alpha channel. Our team will take care of fitting it to different devices.
 
 
 5. Crafting issues
+==
 In order to read the articles on the mobile device each article must, after being created in LayoutPreview, be placed into issues. Creating and maintaining issues can be done in two ways. Either through our API or through our UI.
 
 API
@@ -100,18 +104,24 @@ This is currently under development. If this is something you would like to use 
 
 
 6. Recommended HTML pages
+==
 The end user will need to access to different kinds of information whether he/she has questions, feedback or is interested in getting a quick guide for the app. We will provide example HTML for the following pages for you to use as a starting point. In order to implement these pages, we will need an URL in order for the app to access them.
-FAQ
+
+<b>FAQ</b>
+
 An example for this html page is currently under development.
-Feedback form
+
+<b>Feedback form</b>
+
 The end user will need to give feedback of various kind. It could be editorial feedback, bug reports, questions or complaints. An example for this html page is currently under development.
-Guide
+<b>Guide</b>
 An example for this html page is currently under development.
-Paywall
+<b>Paywall</b>
 This is what the user should see when he/she tries to open content which he/she is not authorized to view/browse. An example for this html page is currently under development.
 
 
 7. Additional features for articles
+==
 For an up-to-date overview over what is currently supported, please see this document.
 Native video player
 See BridgeAPI or URLAPI
@@ -120,6 +130,7 @@ See BridgeAPI or URLAPI
 
 
 8. Preparing for future features
+==
 For an up-to-date overview over what is currently supported, please see this document.
 Linking to article in a specific issue
 See URLAPI
@@ -130,8 +141,10 @@ Everything is taken care of automatically.
 
 
 9. Statistics and tracking
+==
 TBA. Please watch this space.
 
 
 10. Ads
+==
 During the first phase, the Ivy platform will display ads contained within the articles in HTML/CSS/Javascript format. The ads in question will be inserted as figures within Dr. Mobile. Please consult Aptoma for more information about this.
