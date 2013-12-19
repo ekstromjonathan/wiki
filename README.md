@@ -7,7 +7,6 @@ This document presents the different steps of integration needed to have an app 
 Last revision:
 =
 <b>Milestones for delivery:</b>
-
 Agens hands over generic unbranded default demo version of Ivy Engine, running on Agens’ demo environment
 Client decides on strategy: Pricing, publications etc.
 Client ensures publication process will be in place and starts training necessary key personnel for content production
